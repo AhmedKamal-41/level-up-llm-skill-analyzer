@@ -15,6 +15,12 @@
 [![Redis](https://img.shields.io/badge/Redis-Arq%20worker-DC382D?logo=redis&logoColor=white)](https://redis.io/)
 [![OpenAI](https://img.shields.io/badge/OpenAI-gpt--4o%20%2B%20embeddings-412991?logo=openai&logoColor=white)](https://openai.com/)
 
+<br/>
+
+### 🔗 [**Live Demo → skillbridge.cv**](https://skillbridge.cv/)
+
+<img src="docs/screenshots/landing.png" alt="SkillBridge — close the gap between you and the role" width="900" />
+
 </div>
 
 ---
@@ -22,6 +28,7 @@
 ## 📋 Table of Contents
 
 - [Overview](#overview)
+- [Screenshots](#screenshots)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [System Architecture](#system-architecture)
@@ -54,6 +61,26 @@ and object storage — designed around two cleanly separated pipelines.
 - **Portfolio Project Generation** — two LLM-generated projects that build the missing skills
 - **Live Job Matching** — real job postings ranked per user by skill overlap
 - **One Source of Truth** — every skill is normalized through a single canonical taxonomy
+
+> **Try it live:** [**skillbridge.cv**](https://skillbridge.cv/) — no signup required for your first report.
+
+---
+
+## 📸 Screenshots <a id="screenshots"></a>
+
+<div align="center">
+
+**Skill Gap Analyzer** — upload a résumé, paste a job description, and get a real fit score.
+
+<img src="docs/screenshots/analyze.png" alt="Analyze — drop your résumé and paste the job description" width="900" />
+
+<br/><br/>
+
+**How it works** — three steps from résumé to a concrete, buildable plan.
+
+<img src="docs/screenshots/how-it-works.png" alt="Three steps: upload résumé and role, score fit, get an actionable plan" width="900" />
+
+</div>
 
 ---
 
@@ -323,6 +350,6 @@ SkillBridge-2.0/
 
 **Made with ❤️ for students and job seekers**
 
-[⭐ Star this repo](https://github.com/AhmedKamal-41/SkillBridge-2.0)
+[🔗 Live Demo](https://skillbridge.cv/) · [⭐ Star this repo](https://github.com/Surfs101/level-up-llm-skill-analyzer)
 
 </div>
