@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="frontend/app/icon.svg" alt="SkillBridge bridge logo" width="120" />
+</div>
+
 # SkillBridge 2.0 - LLM Skill Analyzer
 
 A career-planning web application that takes a résumé and a target job description, extracts the
