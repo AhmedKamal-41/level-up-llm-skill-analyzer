@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="SkillBridge">
+  <title>SkillBridge</title>
+
+  <defs>
+    <!-- Navy plate: the bg-secondary and bg tokens from globals.css -->
+    <linearGradient id="plate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1E284D" />
+      <stop offset="1" stop-color="#141C36" />
+    </linearGradient>
+
+    <!-- Cable fan: accent blue into score cyan -->
+    <linearGradient id="cable" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3B82F6" />
+      <stop offset="1" stop-color="#22D3EE" />
+    </linearGradient>
+
+    <!-- Accent light pooling behind the mast -->
+    <radialGradient id="pool" cx="0.42" cy="0.3" r="0.55">
+      <stop offset="0" stop-color="#3B82F6" stop-opacity="0.34" />
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="15" fill="url(#plate)" />
+  <rect width="64" height="64" rx="15" fill="url(#pool)" />
+
+  <!-- Stay cables, two to the short side and three to the long side -->
+  <g stroke="url(#cable)" stroke-width="1.9" stroke-linecap="round">
+    <path d="M26.5 12 L10 44.5" />
+    <path d="M26.5 12 L18 44.5" />
+    <path d="M26.5 12 L38 44.5" />
+    <path d="M26.5 12 L47 44.5" />
+    <path d="M26.5 12 L55 44.5" />
+  </g>
+
+  <!-- Mast -->
+  <rect x="24.6" y="10" width="3.8" height="39" rx="1.9" fill="#F8FAFC" />
+  <!-- Deck -->
+  <rect x="5" y="44.5" width="54" height="4.6" rx="2.3" fill="#F8FAFC" />
+</svg>
