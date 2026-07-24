@@ -1,4 +1,4 @@
-# SkillBridge 2.0 — LLM Skill Analyzer
+# SkillBridge 2.0 - LLM Skill Analyzer
 
 A career-planning web application that takes a résumé and a target job description, extracts the
 technical skills in both against a single canonical taxonomy, scores the fit, retrieves the courses
