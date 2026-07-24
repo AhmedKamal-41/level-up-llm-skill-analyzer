@@ -22,7 +22,9 @@ embeddings and `gpt-4o` · S3-compatible object storage.
 account.
 
 <p align="center">
-  <img src="docs/screenshots/landing.png" alt="SkillBridge landing page with the headline &quot;Close the gap between you and the role&quot; and buttons to analyze a résumé or see how it works" width="800">
+  <a href="docs/screenshots/landing.png">
+    <img src="docs/screenshots/landing.png" alt="SkillBridge landing page with the headline &quot;Close the gap between you and the role&quot; and buttons to analyze a résumé or see how it works" width="100%">
+  </a>
 </p>
 
 ## Table of contents
@@ -454,11 +456,36 @@ Only mechanisms present in the code are listed here.
 ## Screenshots
 
 All three images are captured from the running application at a 1440 px viewport width. Paths are
-exactly as stored under `docs/screenshots/`.
+exactly as stored under `docs/screenshots/`. Click any screenshot to open it at full resolution.
 
-| | |
-|---|---|
-| **Analyze** — the signed-in entry point. A résumé is dropped into the left panel (PDF or DOCX, up to 5 MB) and the full job posting is pasted on the right; the submit button stays disabled until both are present. Submitting enqueues a run and navigates to a live progress view.<br>![SkillBridge analyze screen with a résumé drop zone on the left, a job-description text area on the right, and a disabled "Analyze the gap" button](docs/screenshots/analyze.png) | **How it works** — the marketing explainer on the landing page, summarizing the product in three steps: upload the résumé and the role, get a fit score instead of a keyword count, and receive a plan of courses and projects ordered by impact.<br>![SkillBridge "Three steps from resume to plan" marketing section showing an upload card, a 74% fit-score card, and a plan checklist card](docs/screenshots/how-it-works.png) |
+### Skill gap analyzer
+
+The signed-in entry point. A résumé is dropped into the left panel (PDF or DOCX, up to 5 MB) and the
+full job posting is pasted on the right. The submit button stays disabled until both are present;
+submitting enqueues a run and navigates to a live, staged progress view.
+
+<p align="center">
+  <a href="docs/screenshots/analyze.png">
+    <img src="docs/screenshots/analyze.png" alt="SkillBridge analyze screen with a résumé drop zone on the left, a job-description text area on the right, and a disabled &quot;Analyze the gap&quot; button" width="100%">
+  </a>
+</p>
+
+### How it works
+
+The marketing explainer on the landing page, summarizing the product in three steps: upload the
+résumé and the role, get a fit score instead of a keyword count, and receive a plan of courses and
+projects ordered by impact.
+
+<p align="center">
+  <a href="docs/screenshots/how-it-works.png">
+    <img src="docs/screenshots/how-it-works.png" alt="SkillBridge &quot;Three steps from resume to plan&quot; marketing section showing an upload card, a 74% fit-score card, and a plan checklist card" width="100%">
+  </a>
+</p>
+
+### Landing page
+
+The full landing page shown at the top of this README is also available at
+[`docs/screenshots/landing.png`](docs/screenshots/landing.png).
 
 ## Testing strategy
 
